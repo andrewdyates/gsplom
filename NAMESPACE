@@ -1,0 +1,6 @@
+export(gsplom)
+export(dcorMatrix)
+export(dcorSingle)
+export(dcorMatrixNA)
+export(adaptiveRegress)
+export(logicClassMatrix)

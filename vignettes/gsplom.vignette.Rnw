@@ -1,0 +1,40 @@
+% -*- mode: noweb; noweb-default-code-mode: R-mode; -*-
+%\VignetteIndexEntry{Primer}
+%\VignetteKeywords{Heatmap, Visualization}
+%\VignetteDepends{}
+%\VignettePackage{gsplom}
+\documentclass[12pt]{article}
+\usepackage{hyperref}
+\usepackage[authoryear, round]{natbib}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\textwidth=6.2in
+\textheight=8.5in
+\parskip=.3cm
+\oddsidemargin=.1in
+\evensidemargin=.1in
+\headheight=-.3in
+
+\newcommand\Rpackage[1]{{\textsf{#1}\index{#1 (package)}}}
+\newcommand\dataset[1]{{\textit{#1}\index{#1 (data set)}}}
+\newcommand\Rclass[1]{{\textit{#1}\index{#1 (class)}}}
+\newcommand\Rfunction[1]{{{\small\texttt{#1}}\index{#1 (function)}}}
+\newcommand\Rfunarg[1]{{\small\texttt{#1}}}
+\newcommand\Robject[1]{{\small\texttt{#1}}}
+
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+
+\author{Andrew D. Yates}
+\begin{document}
+\title{Introduction to the gsplom Package}
+\maketitle
+\tableofcontents
+
+\section{Background}
+To be written...
+
+\end{document}
